@@ -1,14 +1,30 @@
-import { useMemo } from "react";
-import libros from "../Data/libros.json"; // Import the books data
+import { useContext } from "react";
+import libros from "../Data/libros.json";
+import { GlobalCOntext } from "../components/GlobalContext";
 
 export const useRandomize = () => {
-  // Create a random book selector
-  const randomBookDetails = useMemo(() => {
-    const randomIndex = Math.floor(Math.random() * libros.length); // Pick a random index
-    const book = libros[randomIndex]; // Select the random book
-    const detalles = `${book.title}-${book.author}-${book.year}`; // Format the details
-    return detalles; // Return formatted string
-  }, []); // Compute once on component mount
+  const { cesta } = useContext(GlobalCOntext);
 
+  const generarLibro = () => {
+    let book;
+    let randomIndex;
+    let t = 0;
+
+    do {
+      randomIndex = Math.floor(Math.random() * libros.length);
+      book = libros[randomIndex];
+      t++;
+    } while (
+      cesta.some(
+        ([cTitle, cYear]) => cTitle === book.title && cYear === book.year
+      ) &&
+      t < libros.length
+    );
+
+    return book;
+  };
+
+  const randomLibro = generarLibro();
+  const randomBookDetails = `${randomLibro.title}-${randomLibro.author}-${randomLibro.year}`;
   return randomBookDetails;
 };

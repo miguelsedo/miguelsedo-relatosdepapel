@@ -35,7 +35,7 @@ export const PagoExitoso = () => {
     >
       <h1>¡Pago realizado con éxito!</h1>
       <p>Gracias por tu compra. El total pagado es de:</p>
-      <h2 style={{ color: "green" }}>{totalValue.toFixed(2)} €</h2>
+      <h2 style={{ color: "green" }}>{totalValue} €</h2>
 
       <div className="progress-bar">
         <div

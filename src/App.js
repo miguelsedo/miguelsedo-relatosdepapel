@@ -25,10 +25,10 @@ function App() {
   };
 
 
-  const cestaTotal = cesta.reduce((total, [title, year]) => {
+  const cestaTotal = Math.round(cesta.reduce((total, [title, year]) => {
     const book = libros.find((libro) => libro.title === title && libro.year === year);
     return total + (book?.price || 0);
-  }, 0);
+  }, 0)  * 10) / 10;
 
   
   

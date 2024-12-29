@@ -18,7 +18,6 @@ export const AppRouter = () => {
         <Route path="/libro/:detalles" element={<VistaLibro />} />
         <Route path="/pago-exitoso" element={<PagoExitoso />} />
         <Route path="/random" element={<Random />} />
-        <Route path="/random/:detalles" element={<PagoExitoso />} />
         <Route path="/*" element={<LandingPage />} />
       </Routes>
   );
