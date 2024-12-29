@@ -16,7 +16,7 @@ export const PagoExitoso = () => {
 
     const interval = setInterval(() => {
       setProgress((prev) => prev + 1);
-    }, 30);
+    }, 40);
 
     if (progress >= 100) {
       navigate("/");
@@ -26,27 +26,21 @@ export const PagoExitoso = () => {
   }, [progress, navigate, setUpdateCesta]);
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
       <h1>¡Pago realizado con éxito!</h1>
       <p>Gracias por tu compra. El total pagado es de:</p>
       <h2 style={{ color: "green" }}>{totalValue.toFixed(2)} €</h2>
 
-      <div
-        style={{
-          marginTop: "30px",
-          width: "70%",
-          height: "10px",
-          backgroundColor: "#e0e0e0",
-          borderRadius: "5px",
-        }}
-      >
+      <div className="progress-bar">
         <div
-          style={{
-            width: `${progress}%`,
-            height: "100%",
-            backgroundColor: "#28A745",
-            transition: "width 0.03s linear",
-          }}
+          className="progress"
+          style={{ width: `${progress}%` }}
         ></div>
       </div>
     </div>
