@@ -1,0 +1,323 @@
+[
+  {
+      "title": "Cien años de soledad",
+      "author": "Gabriel García Márquez",
+      "year": 1967,
+      "genre": "Realismo mágico",
+      "description": "Narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.",
+      "price": 22.54
+  },
+  {
+      "title": "Don Quijote de la Mancha",
+      "author": "Miguel de Cervantes",
+      "year": 1605,
+      "genre": "Novela",
+      "description": "La obra sigue las aventuras del caballero Don Quijote y su fiel escudero, Sancho Panza.",
+      "price": 17.89
+  },
+  {
+      "title": "Pedro Páramo",
+      "author": "Juan Rulfo",
+      "year": 1955,
+      "genre": "Realismo mágico",
+      "description": "Un hombre viaja al pueblo de Comala en busca de su padre, Pedro Páramo, y encuentra un lugar lleno de fantasmas.",
+      "price": 14.67
+  },
+  {
+      "title": "La sombra del viento",
+      "author": "Carlos Ruiz Zafón",
+      "year": 2001,
+      "genre": "Ficción histórica",
+      "description": "Un joven descubre un misterioso libro en el Cementerio de los Libros Olvidados y desentraña un oscuro misterio.",
+      "price": 18.23
+  },
+  {
+      "title": "El amor en los tiempos del cólera",
+      "author": "Gabriel García Márquez",
+      "year": 1985,
+      "genre": "Romance",
+      "description": "Una historia de amor que trasciende el tiempo entre Fermina Daza y Florentino Ariza.",
+      "price": 20.15
+  },
+  {
+      "title": "Ficciones",
+      "author": "Jorge Luis Borges",
+      "year": 1944,
+      "genre": "Cuentos",
+      "description": "Una colección de cuentos llenos de paradojas, laberintos y realidades alternativas.",
+      "price": 12.45
+  },
+  {
+      "title": "Rayuela",
+      "author": "Julio Cortázar",
+      "year": 1963,
+      "genre": "Novela experimental",
+      "description": "Una obra que invita al lector a elegir su propio orden de lectura para construir su experiencia narrativa.",
+      "price": 23.78
+  },
+  {
+      "title": "Crónica de una muerte anunciada",
+      "author": "Gabriel García Márquez",
+      "year": 1981,
+      "genre": "Novela",
+      "description": "Una narración que detalla un asesinato que todo el pueblo sabía que ocurriría, pero nadie pudo evitar.",
+      "price": 16.49
+  },
+  {
+      "title": "El Aleph",
+      "author": "Jorge Luis Borges",
+      "year": 1949,
+      "genre": "Cuentos",
+      "description": "Un conjunto de relatos que exploran conceptos como el infinito, la memoria y el tiempo.",
+      "price": 15.34
+  },
+  {
+      "title": "La casa de los espíritus",
+      "author": "Isabel Allende",
+      "year": 1982,
+      "genre": "Realismo mágico",
+      "description": "La historia de la familia Trueba a través de varias generaciones, en un país que refleja a Chile.",
+      "price": 19.88
+  },
+  {
+      "title": "El túnel",
+      "author": "Ernesto Sabato",
+      "year": 1948,
+      "genre": "Psicológica",
+      "description": "La obsesiva confesión de un hombre que ha cometido un asesinato.",
+      "price": 14.90
+  },
+  {
+      "title": "Los detectives salvajes",
+      "author": "Roberto Bolaño",
+      "year": 1998,
+      "genre": "Novela",
+      "description": "Dos jóvenes poetas buscan a una escritora desaparecida en el desierto de Sonora.",
+      "price": 22.74
+  },
+  {
+      "title": "La tregua",
+      "author": "Mario Benedetti",
+      "year": 1960,
+      "genre": "Romance",
+      "description": "Un hombre mayor encuentra el amor y una nueva perspectiva de vida.",
+      "price": 15.78
+  },
+  {
+      "title": "Sobre héroes y tumbas",
+      "author": "Ernesto Sabato",
+      "year": 1961,
+      "genre": "Novela",
+      "description": "Una historia que combina el romance, el misterio y las profundas reflexiones sobre la humanidad.",
+      "price": 20.10
+  },
+  {
+      "title": "Aura",
+      "author": "Carlos Fuentes",
+      "year": 1962,
+      "genre": "Ficción gótica",
+      "description": "Una inquietante novela corta sobre un joven que se ve atrapado en un extraño romance.",
+      "price": 18.63
+  },
+  {
+      "title": "El laberinto de la soledad",
+      "author": "Octavio Paz",
+      "year": 1950,
+      "genre": "Ensayo",
+      "description": "Un análisis profundo de la identidad mexicana y su cultura.",
+      "price": 19.42
+  },
+  {
+      "title": "La ciudad y los perros",
+      "author": "Mario Vargas Llosa",
+      "year": 1963,
+      "genre": "Ficción social",
+      "description": "Una novela que critica el sistema militar y las jerarquías sociales en el Perú.",
+      "price": 21.37
+  },
+  {
+      "title": "Conversación en La Catedral",
+      "author": "Mario Vargas Llosa",
+      "year": 1969,
+      "genre": "Ficción política",
+      "description": "Un periodista busca la verdad detrás de un régimen corrupto en el Perú.",
+      "price": 23.54
+  },
+  {
+      "title": "El libro de arena",
+      "author": "Jorge Luis Borges",
+      "year": 1975,
+      "genre": "Cuentos",
+      "description": "Una colección de relatos donde Borges juega con lo infinito y lo imposible.",
+      "price": 17.25
+  },
+  {
+      "title": "La fiesta del chivo",
+      "author": "Mario Vargas Llosa",
+      "year": 2000,
+      "genre": "Ficción histórica",
+      "description": "Una narrativa que aborda la dictadura de Rafael Trujillo en República Dominicana.",
+      "price": 22.45
+  },
+  {
+      "title": "Los Abismos",
+      "author": "Pilar Quintana",
+      "year": 2021,
+      "genre": "Ficción",
+      "description": "Una historia íntima sobre la familia y el miedo a crecer.",
+      "price": 19.99
+  },
+  {
+      "title": "El infinito en un junco",
+      "author": "Irene Vallejo",
+      "year": 2020,
+      "genre": "Ensayo",
+      "description": "Un recorrido por la historia del libro y las bibliotecas.",
+      "price": 22.50
+  },
+  {
+      "title": "Nuestra parte de noche",
+      "author": "Mariana Enriquez",
+      "year": 2019,
+      "genre": "Terror",
+      "description": "Una historia oscura de secretos familiares y un culto sobrenatural.",
+      "price": 20.45
+  },
+  {
+      "title": "Tierra",
+      "author": "Eloy Moreno",
+      "year": 2020,
+      "genre": "Ficción",
+      "description": "Un relato conmovedor sobre el cambio climático y las relaciones humanas.",
+      "price": 18.99
+  },
+  {
+      "title": "El mapa de los anhelos",
+      "author": "Alice Kellen",
+      "year": 2022,
+      "genre": "Romance",
+      "description": "Una novela sobre el amor, el duelo y los caminos inesperados de la vida.",
+      "price": 16.49
+  },
+  {
+      "title": "El tiempo de las moscas",
+      "author": "Claudia Piñeiro",
+      "year": 2022,
+      "genre": "Thriller",
+      "description": "Un thriller que mezcla misterio y reflexión social.",
+      "price": 21.99
+  },
+  {
+      "title": "La hija única",
+      "author": "Guadalupe Nettel",
+      "year": 2020,
+      "genre": "Ficción",
+      "description": "Una exploración sobre la maternidad y las complejidades de la vida familiar.",
+      "price": 19.95
+  },
+  {
+      "title": "Revolución",
+      "author": "Arturo Pérez-Reverte",
+      "year": 2022,
+      "genre": "Ficción histórica",
+      "description": "Una épica novela ambientada en la Revolución Mexicana.",
+      "price": 25.00
+  },
+  {
+      "title": "Independencia",
+      "author": "Javier Cercas",
+      "year": 2021,
+      "genre": "Novela negra",
+      "description": "Un detective investiga un caso que desvela los entresijos de la política y el poder.",
+      "price": 22.49
+  },
+  {
+      "title": "Cauterio",
+      "author": "Lucía Lijtmaer",
+      "year": 2022,
+      "genre": "Ficción",
+      "description": "Una novela que reflexiona sobre la soledad y las conexiones humanas en la era digital.",
+      "price": 17.89
+  },
+  {
+      "title": "Una historia ridícula",
+      "author": "Luis Landero",
+      "year": 2022,
+      "genre": "Comedia",
+      "description": "Una obra que mezcla humor y crítica social con un estilo fresco.",
+      "price": 20.99
+  },
+  {
+      "title": "Lo que la marea esconde",
+      "author": "María Oruña",
+      "year": 2021,
+      "genre": "Thriller",
+      "description": "Un misterio que se desarrolla en la costa del Cantábrico.",
+      "price": 18.49
+  },
+  {
+      "title": "La anomalía",
+      "author": "Hervé Le Tellier",
+      "year": 2020,
+      "genre": "Ciencia ficción",
+      "description": "Una novela que explora las consecuencias de un extraño fenómeno aéreo.",
+      "price": 19.99
+  },
+  {
+      "title": "El italiano",
+      "author": "Arturo Pérez-Reverte",
+      "year": 2021,
+      "genre": "Ficción histórica",
+      "description": "Una novela sobre el amor y la guerra en la Italia de la Segunda Guerra Mundial.",
+      "price": 24.50
+  },
+  {
+      "title": "El libro negro de las horas",
+      "author": "Eva García Sáenz de Urturi",
+      "year": 2022,
+      "genre": "Novela negra",
+      "description": "Un thriller donde el protagonista investiga un antiguo misterio familiar.",
+      "price": 23.99
+  },
+  {
+      "title": "La Bestia",
+      "author": "Carmen Mola",
+      "year": 2021,
+      "genre": "Thriller histórico",
+      "description": "Una novela de misterio ambientada en el Madrid del siglo XIX.",
+      "price": 21.75
+  },
+  {
+      "title": "Violeta",
+      "author": "Isabel Allende",
+      "year": 2022,
+      "genre": "Ficción histórica",
+      "description": "La vida de una mujer extraordinaria que abarca cien años de historia.",
+      "price": 20.00
+  },
+  {
+      "title": "El fuego invisible",
+      "author": "Javier Sierra",
+      "year": 2017,
+      "genre": "Ficción",
+      "description": "Un misterio sobre los orígenes de la palabra escrita y su poder.",
+      "price": 22.49
+  },
+  {
+      "title": "El latido de la tierra",
+      "author": "Luz Gabás",
+      "year": 2019,
+      "genre": "Ficción",
+      "description": "Una novela sobre los secretos que esconde un pueblo rural.",
+      "price": 19.45
+  },
+  {
+      "title": "Aquitania",
+      "author": "Eva García Sáenz de Urturi",
+      "year": 2020,
+      "genre": "Ficción histórica",
+      "description": "Una novela de intriga ambientada en la Europa medieval.",
+      "price": 21.50
+  }
+]
+
